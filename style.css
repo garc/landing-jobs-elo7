@@ -1,0 +1,201 @@
+body{
+	color:#95918D;	
+	font-style: inherit;
+	font-size: inherit;
+	font-size-adjust: inherit;
+	font-stretch: inherit;
+	font-feature-settings: inherit;
+	font-language-override: inherit;
+	font-kerning: inherit;
+	font-synthesis: inherit;
+	font-variant: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	font-family: museo_sans,sans-serif;
+	font-weight: 300;
+}
+
+
+.upper{
+	text-transform:uppercase;
+	font-size:2.35em;
+	font-weight:bold;
+	margin-bottom:0;
+	text-align:center;
+	margin-bottom:40px;
+}
+
+header{
+	background:url('img/foto-header.png')no-repeat;
+	background-size: 100%;
+	height:450px;
+	width:100%;
+	display:block;
+}
+header h1{
+	color:#FFFFFF;
+	font-size:4.5em;
+	text-align:center;
+	padding-top:300px;
+	margin:0;
+	font-weight:bold;
+}
+
+@media screen and (max-width: 725px) {
+	header h1{
+		color:#95918D;
+	}
+}
+
+
+Leia mais em: Utilizando CSS Media Queries http://www.devmedia.com.br/utilizando-css-media-queries/27085#ixzz3stQX5Nu2
+
+
+nav{
+		text-align:center;
+}
+
+nav p{
+	font-size:2.3em;
+	margin-top:20px;
+}
+
+nav a{
+	font-size:2.35em;
+	text-align:center;
+	padding:15px 10px;
+	border-top:1px solid #999;
+	margin:20px auto;
+	display:block;
+	max-width:260px;
+}
+
+nav a:hover{
+	text-decoration:none;
+}
+
+i.fa-angle-double-right{
+	color:#359C9C;
+}
+	
+
+.elo-inner {
+	background:#f8f8f8;
+}
+
+.video{
+	padding:70px 0 40px;
+}
+
+.video p.title{
+	text-align:left;
+	margin-bottom:0;
+}
+
+.video p.ceo-name{
+	font-size:2em;
+	color:#f9a90e;
+}
+
+.video p.ceo-desc{
+	font-size:1.85em;
+	margin-top:40px;
+}
+
+.time p{
+	font-size:2.35em;
+	font-weight:bold;
+	margin-bottom:0;
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.time .thumbnail img{
+	width:100%;
+}
+
+.time .thumbnail {
+    position:relative;
+    overflow:hidden;
+	background:transparent;
+	border:0 none;
+}
+ 
+.time .thumbnail .caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:#000000;
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.elo-vants{
+	text-align:center;
+	padding:60px 0 0;
+}
+
+.elo-vants p{
+	font-size:1.9em;
+	margin:20px 10px 40px;
+}
+
+.elo-vants p.vant-title{
+	margin:20px 0;
+	font-size:2.25em;
+	font-weight:bold;
+}
+
+a.more{
+	font-size:2.35em;
+	text-align:center;
+	padding:15px 10px;
+	border-top:1px solid #999;
+	margin:20px auto;
+	display:block;
+	max-width:260px;
+	text-decoration:none;
+	clear:both;
+}
+
+a.more:hover{
+	text-decoration:none;
+}
+
+.elo-jobs{
+	text-align:center;
+}
+
+.elo-jobs p.jobs-title{
+	margin-top:50px;
+}
+
+.elo-jobs p.dev{
+	text-align:left;
+}
+
+.elo-jobs .job-img{
+	width:100%;
+}
+
+.elo-jobs table.jobs{
+	font-size:2em;
+	margin-bottom:90px;
+}
+
+.elo-jobs .job-list{
+	text-align:left;
+	padding-bottom:20px;
+}
+
+.elo-jobs .job-local{
+	text-align:right;
+}
+
